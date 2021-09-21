@@ -1,0 +1,51 @@
+#header .center {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 50px 0 50px;
+}
+
+.menu{
+    width: 50%;
+    margin: 0;
+}
+
+.main-center{
+    flex-direction: row;
+    align-items:flex-start;
+}
+
+.main-center-content {
+    width: 800px;
+    max-width: 800px;
+    font-size: 1.5rem;
+}
+
+
+
+.main-center-article {
+    width: 800px;
+    max-width: 800px;
+    font-size: 1.5rem;
+}
+
+.main-center-content--title{
+    font-size: 3rem;
+}
+
+.main-center-article--img {
+    width: 100%;
+    height: 300px;
+}
+
+#sidebar{
+    flex-direction: column;
+    max-width: 200px;
+    min-height: 300px;
+    font-size: 1.4rem;
+}
+
+
+.main-center-sidebar--item form{
+    display: flex;
+    flex-direction: column;
+}

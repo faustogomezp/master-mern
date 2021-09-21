@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./assets/scripts/main.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/tablet.css" media="(min-width: 600px)">
+    <link rel="stylesheet" href="./assets/css/computer.css" media="(min-width: 940px)">
+    <title>Maquetación para el master en Frameworks JavaScript</title>
+</head>
+<body>
+    <header id="header">
+        <div class="center">
+            <!--LOGO-->
+            <div class="logo">
+                <img src="./assets/images/icono.svg" alt="Logotipo" class="app-logo">
+                <span class="brand">
+                    <strong>Curso</strong>React
+                </span>
+            </div>
+                    <!--MENU-->
+        <nav class="menu">
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./form.html">Formulario</a></li>
+                <li><a href="#">Página 1</a></li>
+                <li><a href="#">Página 2</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <section id="slider" class="main-slider">
+            <h1 class="main-slider--title">Bienvenido al curso de React con Victor Robles de victorroblesweb.es<h1>
+            <a href="./blog.html" class="main-slider--btn-blog">Ir al blog</a>
+        </section>
+        <section class="main-center">
+            <div id="articles" class="main-center-content">
+                <h2 class="main-center-content--title">Últimos artículos</h2>
+
+                <!--Listado de articulos-->
+                <article id="article-template" class="main-center-content--article">
+                    <img src="./assets/images/road.jpg" alt="" class="main-center-content--article-img">
+                    <div class="main-center-content--article-detail">
+                        <h2 class="main-center-content--article-detail--title">Artículo de Prueba</h2>
+                        <span class="main-center-content--article-detail--date">17 de sept 2021</span>
+                        <a href="#" class="main-center-content--article-detail--more">Leer más</a>
+                    </div>
+                </article>
+            </div>
+            <aside id="sidebar" class="main-center-sidebar">
+                <div id="nav-blog" class="main-center-sidebar--item">
+                    <h3>Puedes hacer esto</h3>
+                    <a href="#" class="btn btn-success">Crear artículo</a>
+                </div>
+                <div id="search" class="main-center-sidebar--item">
+                    <h3>Buscador</h3>
+                    <p>Encuentra el artículo que buscas</p>
+                    <form action="">
+                        <input type="text" name="search">
+                        <input type="submit" name="submit" value="buscar" class="btn">
+                    </form>
+                </div>
+            </aside>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class=center>
+            <p>&copy; Máster en frameworks para JavaScripts de victorroblesweb.es</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

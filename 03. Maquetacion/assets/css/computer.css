@@ -1,0 +1,13 @@
+#header {
+    font-size: 2rem;
+}
+
+.logo .app-logo {
+    width: 90px;
+    height: 90px;
+}
+
+.mid-form {
+    width: 600px;
+    max-width: 600px;
+}
